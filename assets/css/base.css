@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root{
     --background: #F1EFE7;
     --foreground: #626D62;
@@ -17,7 +18,7 @@
 }
 
 html{
-    font-family: "Lato", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-size: 62.5%; /*define a fonte para 10px no rem */
 }
 
@@ -29,6 +30,6 @@ body{
 
 .container{
     width: 100%;
-    max-width: 1400px; /*largura maxima */
+    max-width: 1200px; /*largura maxima */
     margin: auto; /*centraliza o conteudo */
 }
