@@ -1,0 +1,25 @@
+.botao{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.botao .stylebotao{
+    width: 370px;
+    height: 66px;
+    background-color: var(--secondary);
+    border-radius: 100px;
+    border-color: var(--secondary);
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    color: var(--foreground);
+    align-items: center;
+}
+
+.botao img{
+    width: 40px;
+    height: 40px;
+}

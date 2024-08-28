@@ -12,9 +12,10 @@ header{
 }
 
 .logo img{
-    width: 50rem;
+    width: 40rem;
     height: auto;
     margin: auto;
+    padding-top: 15px;
 }
 navbar{
     align-items: center;
@@ -29,7 +30,13 @@ nav ul{
 li{
     display: inline;
     margin-right: 10px;
-    letter-spacing: .5rem;
+    letter-spacing: .2rem;
+    font-size: 12px;
+}
+
+li a{
+    color: var(--primary);
+    text-decoration: none;
 }
 
 nav li + li:before{
