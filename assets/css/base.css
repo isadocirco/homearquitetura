@@ -33,3 +33,15 @@ body{
     max-width: 1200px; /*largura maxima */
     margin: auto; /*centraliza o conteudo */
 }
+
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 200px;
+}
+
+.borda{
+    border: 3.5px solid var(--primary);
+    margin-left: 195px;
+    margin-right: 195px;
+}
