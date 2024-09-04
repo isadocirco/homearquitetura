@@ -1,0 +1,12 @@
+.tresImg{
+    display: flex;
+    justify-content: center;
+}
+
+.tresImg .imagens{
+    margin-top: 3.2rem;
+}
+
+.tresImg img{
+    padding: 1.3rem;
+}

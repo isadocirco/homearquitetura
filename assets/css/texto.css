@@ -1,0 +1,24 @@
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 200px;
+}
+
+.borda{
+    border: 3.5px solid var(--primary);
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.sobrenos{
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.sobrenos .texto{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.8;
+}

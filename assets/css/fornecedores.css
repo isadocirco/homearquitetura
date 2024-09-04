@@ -1,0 +1,86 @@
+.title{
+    font-weight: bold;
+    font-size: 36px;
+    margin-left: 200px;
+}
+
+.borda{
+    border: 3.5px solid var(--primary);
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+.fornecedores{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.fornecedores .subtitle{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.c1{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.c1 input{
+    width: 100%;
+    border-radius: 30px;
+    height: 30px;
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.f1{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.f1 input{
+    width: 70%;
+    border-radius: 30px;
+    height: 30px;
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.f1 .final{
+    float: left;
+    align-items: left;
+}
+
+
+.f2{
+    float: left;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.f2 input{
+    width: 80%;
+    float: left;
+    border-radius: 30px;
+    height: 30px;
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+}
+
+.f2 .final{
+    padding-right: 30px;
+}
+
+.enviar{
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--foreground);
+    color: var(--background);
+    border-radius: 30px;
+    font-size: 24px;
+}

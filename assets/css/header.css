@@ -6,9 +6,11 @@
 
 
 header{
-   display: flex;
+    display: flex;
     width: 100%;
     margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo img{
@@ -18,8 +20,49 @@ header{
     padding-top: 15px;
 }
 navbar{
-    align-items: center;
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: left;
+
+}
+
+.menu-opener{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+}
+
+.menu-opener span{
+    display: block;
+    width: 2rem;
+    height: 0.1rem;
+    background-color: var(--foreground);
+}
+
+header nav{
+    align-items: center;
+    justify-content: column;
+    display: none;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+header nav a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+header nav.opened{
+    display: flex;
 }
 
 nav ul{
@@ -44,3 +87,15 @@ nav li + li:before{
     padding: 0 10px;
 }
 
+@media(width>600px){
+    header{
+        flex-direction: row;
+    }
+    .menu-opener{
+        display: none;
+    }
+    header nav{
+        display:flex;
+        flex-direction: row;
+    }
+}

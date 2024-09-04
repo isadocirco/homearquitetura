@@ -1,37 +1,35 @@
-.banner{
-    margin-top: 4rem;
-}
-
-.banner .slider{
-    max-width: 100rem;
-    overflow-x: hidden;
-    margin: auto;
-}
-
-.banner .slider input{
-    display: none;
-}
-
-.banner .slider-area{
-    width: 200%;
+.container-slider {
     display: flex;
-    transition: all ease .5s;
-}
-
-.banner .siler-item{
     width: 100%;
-}
 
-.banner .slider-item img{
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100rem;
     height: 60rem;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    position: relative;
     z-index: 5;
-}
+  }
+  
+  .slider {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
 
-.banner .slider-nav{
+  .banner .slider-nav{
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -50,18 +48,28 @@
     z-index: 5;
 }
 
-#slider-1:checked~.slider-area{
-    margin-left: 0%;
-}
-
-#slider-2:checked~.slider-area{
-    margin-left: -100%;
-}
-
 #slider-1:checked~.slider-nav .n1{
     background-color: var(--foreground);
 }
 
 #slider-2:checked~.slider-nav .n2{
     background-color: var(--foreground);
-}
+} 
+
+  #prev-button, #next-button {
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 5;
+  }
+  
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    transform: rotate(180deg);
+  }

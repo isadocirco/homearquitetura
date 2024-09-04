@@ -1,0 +1,28 @@
+.tabela{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+table{
+    margin: auto;
+    width: 1253.75px;
+    border-collapse: collapse;
+}
+table td{
+    height: auto;
+    width:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tabela .l1{
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.tabela .l2{
+    font-size: 2.2rem;
+    text-align: center;
+}

@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/banner.css">
     <link rel="stylesheet" href="assets/css/verde.css">
     <link rel="stylesheet" href="assets/css/botao.css">
     <link rel="stylesheet" href="assets/css/tresImg.css">
+    <link rel="stylesheet" href="assets/css/tabela.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
     <title>HomeArquitetura</title>
 </head>
 <body>
@@ -19,33 +21,37 @@
                     <img src="assets/images/home 1.png" alt="">
                 </a>
             </div>
+            <div class="navbar">
+                <div class="menu-opener">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PROJETOS</a></li>
-                    <li><a href="">SOBRE NÓS</a></li>
-                    <li><a href="">CONTATO</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="projetos.html">PROJETOS</a></li>
+                    <li><a href="sobrenos.html">SOBRE NÓS</a></li>
+                    <li><a href="contato.html">CONTATO</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="banner">
-        <div class="slider">
-            <input checked id="slider-1" name="slider" type="radio">
-            <input checked id="slider-2" name="slider" type="radio">
-            <div class="slider-area">
-                <div class="slider-item">
-                    <img src="assets/images/banner.png"/>
-                </div>
-                <div class="slider-item">
-                    <img src="assets/images/banner.png"/>
-                </div>
-            </div>
-            <div class="slider-nav">
-                <label class="n1" for="slider-1"></label>
-                <label class="n2" for="slider-2"></label>
-            </div>
+    <section class="style">
+    <div class="container-slider">
+        <button id="prev-button"><img src="./assets/images/arrow.png" alt="prev-button"></button>
+        <div class="container-images">
+          <img src="assets/images/banner.png" class="slider on">
+          <img src="assets/images/banner.png" class="slider">
         </div>
+        <button id="next-button"><img src="./assets/images/arrow.png" alt="next-button"></button>
+      </div>
+      <div class="slider-nav">
+        <label class="n1" for="slider-1"></label>
+        <label class="n2" for="slider-2"></label>
+      </div>
+    </div>
     </section>
     <section class="verde">
     <div class="verde">
@@ -58,15 +64,78 @@
         </p></center>     
     </div>
     </section><br><br><br>
-    <section class="botao">
-    <button class="stylebotao"><img src="assets/images/ring-phone-verde.png" alt=""><a href="">FALE CONOSCO</a></button>
-    </section>
-    <section class="tresImg"><br><br><br>
-        <center><div class="img">
+    <div class="botao">
+        <button class="stylebotao">
+            <img src="assets/images/ring-phone-verde.png" alt="">
+            <a href="">FALE CONOSCO</a>
+        </button>
+    </div>
+    <section class="tresImg">
+        <div class="imagens">
         <img src="assets/images/img01.png"/>
         <img src="assets/images/img02.png"/>
         <img src="assets/images/img03.png"/>
-        </div></center>
+        </div>
+    </section>
+    <section class="tabela">
+        <div class="pr">
+            <table>
+                <tr class="l1">
+                    <th>+DE 400</th>
+                    <th>+DE 280</th>
+                    <th>14 anos</th>
+                </tr>
+                <tr class="l2">
+                    <td>PROJETOS REALIZADOS</td>
+                    <td>OBRAS REALIZADAS</td>
+                    <td>DE ESCRITÓRIO</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <section class="rodape">
+            <div class="conteudo-rodape">
+                <div class="item">
+                    <div class="logo">
+                        <a href="">
+                            <img src="assets/images/logo-verde.png" alt="">
+                        </a>
+                    </div>
+                    <div class="loc">
+                        <img src="assets/images/map-verde.png" alt="">
+                        <p class="textloc">Alameda das Flores, 596 - Jardim das Rosas</p>
+                        <p class="textloc">São Paulo - SP, CEP: 01424-000</p>
+                    </div>
+                    <div class="tel">
+                        <img src="assets/images/phone-verde.png" alt="">
+                        <p class="texttel">(15) 99867-5342</p>
+                    </div>
+                    <div class="redes">
+                        <a href=""><img src="assets/images/instagram-verde.png" alt=""></a>
+                        <a href=""><img src="assets/images/twitter-verde.png" alt=""></a>
+                        <a href=""><img src="assets/images/pinterest-verde.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="menu1">
+                        <p><a href="index.html">HOME</a></p>
+                        <p><a href="projetos.html">PROJETOS</a></p>
+                        <p><a href="sobrenos.html">SOBRE NÓS</a></p>
+                        <p><a href="contato.html">CONTATO</a></p>
+                    </div>       
+                </div>
+                <div class="item">
+                    <div class="menu1">
+                        <p><a href="politicas.html">Política de privacidade</a></p>
+                        <p><a href="trabalheconosco.html">Trabalhe Conosco</a></p>
+                        <p><a href="fornecedores.html">Fornecedores</a></p>
+                    </div>  
+                </div>
+                
+            </div>  
+        </section>
+    </footer>
             
     
 </body>
