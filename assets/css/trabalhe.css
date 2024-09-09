@@ -1,4 +1,4 @@
-.fornecedores{
+.trabalhe{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@ form{
     margin-left: 300px;
 }
 
-.fornecedores .subtitle{
+.trabalhe .subtitle{
     font-weight: bold;
     font-size: 16px;
 }
@@ -48,25 +48,6 @@ form{
 .f1 .final{
     float: left;
     align-items: left;
-}
-
-.f2{
-    float: left;
-    width: 40%;
-    margin-bottom: 20px;
-}
-
-.f2 input{
-    width: 80%;
-    float: left;
-    border-radius: 30px;
-    height: 30px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-}
-
-.f2 .final{
-    padding-right: 30px;
 }
 
 .enviar button{

@@ -97,5 +97,5 @@ nav li + li:before{
     header nav{
         display:flex;
         flex-direction: row;
-    }
+    } 
 }

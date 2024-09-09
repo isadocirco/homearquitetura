@@ -23,8 +23,8 @@ footer .rodape{
     height: auto;
     margin: auto;
     padding-top: 15px;
-    margin-left: 230px;
-    margin-top: 30px;
+    margin-left: 140px;
+    margin-top: 50px;
 }
 
 .rodape .loc{
@@ -36,7 +36,7 @@ footer .rodape{
     width: 3rem;
     height: auto;
     margin: auto;
-    margin-left: 250px;
+    margin-left: 160px;
 }
 
 .rodape .textloc{
@@ -58,7 +58,7 @@ footer .rodape{
     width: 3rem;
     height: auto;
     margin: auto;
-    margin-left: 250px;
+    margin-left: 160px;
 }
 
 .rodape .texttel{
@@ -75,7 +75,7 @@ footer .rodape{
 .rodape .redes{
     display: inline-flex;
     margin-top: 5px;
-    margin-left: 250px;
+    margin-left: 160px;
 }
 
 .rodape .redes img{
@@ -92,9 +92,9 @@ footer .rodape{
     text-align: justify;
     max-width: 110ch;
     justify-content: center;
-    margin-left: 48.5%;
-    margin-top: -185px;
     line-height: 40px;
+    margin-left: -275px;
+    margin-top: 130px;
 }
 
 .rodape .menu2{
@@ -105,8 +105,12 @@ footer .rodape{
     text-align: justify;
     max-width: 110ch;
     justify-content: center;
-    margin-left: 75%;
-    margin-top: -120px;
     line-height: 30px;
+    margin-left: -380px;
+    margin-top: 160px;
 }
-*/
+
+.rodape a{
+    text-decoration: none;
+    color: var(--secondary);
+}
