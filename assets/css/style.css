@@ -37,7 +37,7 @@ section.project-details {
 
 }
 .caixa {
-    border-bottom: 3px solid black;
+    border-bottom: 0px solid black;
     border-color: black;
     margin-right: 4%;
 }
@@ -176,6 +176,10 @@ section.project-details {
     .grid-item img {
         object-fit: cover;
     }
+    .logo img {
+        max-width: 80%;
+        width: auto; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -194,8 +198,21 @@ section.project-details {
     }
     
     .container {
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: space-between;
+        align-items: center;
     }
+    .logo {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    
+    .logo img {
+        max-width: 80%; 
+        width: auto
+    }
+    
 
 }

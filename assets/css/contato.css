@@ -95,6 +95,7 @@ dados{
     margin-left: 700px;
     z-index: 10;
     position: relative; 
+    margin-top: -50rem;
 }
 
 form{
@@ -148,3 +149,40 @@ form{
     font-size: 24px;
     margin-top: 10px;
 }
+
+@media (max-width: 768px) {
+    .dados .item{
+        margin-left: 1%;
+        width: 96%;
+
+    }
+    
+    .mapa iframe {
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .dados .item2{
+        margin-left: 0px;
+        z-index: 10;
+        position: relative; 
+        margin-top: 50px;
+    }
+
+    .c1 {
+        width: 96%;
+    }
+
+    .c2{
+        width: 96%;
+ 
+    }
+}
+
+

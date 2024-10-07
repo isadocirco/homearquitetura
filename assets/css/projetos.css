@@ -1,22 +1,31 @@
-.projetos{
+.projetos {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.projetos .imagens{
+.projetos .imagens {
     margin-top: 3.2rem;
 }
 
-.projetos img{
+.projetos img {
     padding: 1.3rem;
 }
 
-.projetos .grid{
+.projetos .grid {
     display: grid;
     grid-template-columns: repeat(3, 389px);
     grid-template-rows: 512px 512px 512px;
     gap: 10px;
     margin-top: 3.2rem;
+}
+
+/* Media query para telas menores */
+@media (max-width: 768px) {
+    .projetos .grid {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto;
+        justify-items: center; 
+        width: 100%; 
+    }
 }

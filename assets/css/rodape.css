@@ -114,3 +114,55 @@ footer .rodape{
     text-decoration: none;
     color: var(--secondary);
 }
+
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 768px) {
+
+    .item {
+        align-items: center;
+        
+    }
+    footer .rodape {
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .rodape .conteudo-rodape {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .rodape .logo img {
+        width: 20rem; 
+        margin-left: 0; 
+    }
+
+    .rodape .loc,
+    .rodape .tel,
+    .rodape .redes {
+        margin: 0; 
+        margin-top: 10px; 
+    }
+
+    .rodape .menu1,
+    .rodape .menu2 {
+        font-size: 1.5rem; 
+        line-height: 30px;
+        margin-top: 10px; 
+        margin-left: -150px;
+    }
+
+    .rodape .loc img {
+        margin: 0px;
+    }
+
+    .rodape .tel img{
+        margin: 0px;
+
+    }
+
+    .rodape .item {
+        justify-content: center;
+    }
+}

@@ -14,7 +14,7 @@ header{
 }
 
 .logo img{
-    width: 40rem;
+    width: 25rem;
     height: auto;
     margin: auto;
     padding-top: 15px;
@@ -90,6 +90,9 @@ nav li + li:before{
 @media(width>600px){
     header{
         flex-direction: row;
+    }
+    .logo img{
+        width: 5rem;
     }
     .menu-opener{
         display: none;

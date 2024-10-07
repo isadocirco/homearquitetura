@@ -1,28 +1,51 @@
-.tabela{
+.tabela {
     display: flex;
     justify-content: center;
     margin-top: 30px;
     width: 100%;
 }
 
-table{
+table {
     margin: auto;
-    width: 1253.75px;
+    width: 100%;
+    max-width: 1253.75px;
     border-collapse: collapse;
 }
-table td{
+
+table th, table td {
     height: auto;
-    width:50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 15px; 
+    text-align: center; 
 }
 
-.tabela .l1{
+.l1 {
     font-size: 3.4rem;
     font-weight: bold;
 }
 
-.tabela .l2{
+.l2 {
     font-size: 2.2rem;
     text-align: center;
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 768px) {
+    table {
+        display: block;
+    }
+
+    tr {
+        display: block; 
+        margin-bottom: 1rem; 
+    }
+
+    th, td {
+        display: block; 
+        text-align: left;
+        padding: 10px; 
+    }
+
+    th {
+        font-size: 1.2rem; 
+    }
 }
