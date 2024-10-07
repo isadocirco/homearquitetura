@@ -34,16 +34,25 @@
 }
 
 @media (max-width: 768px) {
-.verde .subtitulo{
-    margin-left: 10px;
-    margin-right: 10px;
+.verde{
+    margin-top: -5px;
+}
 
+.verde .titulo{
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 0.8rem;
+}
+
+.verde .subtitulo{
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .verde #meuRetangulo{
     margin: 0px;
     width: 100%;
-    height: 600px;
+    height: 700px;
     border-radius: 40px; 
 
 }

@@ -206,11 +206,12 @@ section.project-details {
         display: flex; 
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 8px;
+
     }
     
     .logo img {
-        max-width: 80%; 
+        max-width: 18rem; 
         width: auto
     }
     

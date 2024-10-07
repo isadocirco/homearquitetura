@@ -24,6 +24,16 @@
 }
 
 @media (max-width: 600px) {
+    .sn .title{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .borda{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     .sobrenos {
         display: flex; 
         flex-direction: column;
@@ -33,11 +43,12 @@
     }
 
     .sobrenos .texto {
-        font-size: 1.2rem; 
+        font-size: 1.5rem; 
         text-align: justify;
         line-height: 1.6; 
         color: var(--primary);
     }
+    
 }
 
 @media (min-width: 601px) and (max-width: 768px) {

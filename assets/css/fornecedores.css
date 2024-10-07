@@ -33,7 +33,7 @@ form{
 
 .f1{
     float: left;
-    width: 27%;
+    width: 30%;
     margin-bottom: 20px;
 }
 
@@ -111,7 +111,7 @@ form{
     }
 
     .c1 {
-        width: 80%;
+        width: 90%;
     }
 
     .c2{
@@ -120,7 +120,7 @@ form{
     }
 
     .f1{
-        width: 96%;
+        width: 100%;
 
     }
 

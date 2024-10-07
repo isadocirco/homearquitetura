@@ -48,10 +48,15 @@ body{
 
 
 @media (max-width: 768px) {
- .title{
-    margin-left: 15%;
- }
+    .title{
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 30px;
+    }
 
-
-
+    .borda{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
 }

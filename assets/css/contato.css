@@ -117,6 +117,7 @@ form{
     height: 30px;
     border-color: var(--secondary);
     background-color: var(--secondary);
+    padding-left: 10px;
 }
 
 .c2{
@@ -130,6 +131,11 @@ form{
     height: 300px;
     border-color: var(--secondary);
     background-color: var(--secondary);
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .botaoz button{
@@ -150,9 +156,29 @@ form{
     margin-top: 10px;
 }
 
+textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 30px;
+    height: 300px;
+    border-color: var(--secondary);
+    background-color: var(--secondary);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    display: flex;
+    border-color: var(--secondary);
+}
+
 @media (max-width: 768px) {
+    .contatotlt{
+        margin-top: 0;
+    }
+    
     .dados .item{
-        margin-left: 1%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: -50px;
         width: 96%;
 
     }
@@ -162,10 +188,10 @@ form{
     }
 
     form{
-        width: 100%;
+        width: 95%;
         justify-content: center;
         align-items: center;
-        margin-left: 0px;
+        margin-left: 15px;
     }
 
     .dados .item2{
@@ -182,6 +208,12 @@ form{
     .c2{
         width: 96%;
  
+    }
+
+    .botaoz{
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
     }
 }
 

@@ -73,3 +73,15 @@
   #prev-button {
     transform: rotate(180deg);
   }
+
+  @media (max-width: 768px) {
+    .container-images {
+    width: 50rem;
+    height: 30rem;
+    }
+
+    #prev-button, #next-button {
+      width: 30px;
+      height: 20px;
+    }
+  }
