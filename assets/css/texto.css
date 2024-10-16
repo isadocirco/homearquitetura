@@ -62,3 +62,19 @@
         line-height: 1.7; 
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .sobrenos {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px 220px; 
+    }
+
+    .sobrenos .texto {
+        font-size: 1.5rem; 
+        text-align: justify;
+        line-height: 1.6; 
+        color: var(--primary);
+    }
+}

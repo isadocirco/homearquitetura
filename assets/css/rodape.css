@@ -77,96 +77,6 @@ footer .rodape{
     padding: 5px;
 }
 
-/*
-.rodape .loc{
-    display: inline-flex;
-    margin-top: 5px;
-}
-
-.rodape .loc img{
-    width: 3rem;
-    height: 3rem;
-    margin: auto;
-    margin-left: 160px;
-}
-
-.rodape .textloc{
-    font-size: 1.5rem;
-    color: var(--secondary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    margin-left: 3px;
-}
-
-.rodape .tel{
-    display: inline-flex;
-    margin-top: 10px;
-}
-
-.rodape .tel img{
-    width: 3rem;
-    height: auto;
-    margin: auto;
-    margin-left: 160px;
-}
-
-.rodape .texttel{
-    font-size: 1.5rem;
-    color: var(--secondary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    margin-top: 4px;
-    margin-left: 3px;
-}
-
-.rodape .redes{
-    display: inline-flex;
-    margin-top: 5px;
-    margin-left: 160px;
-}
-
-.rodape .redes img{
-    width: 3rem;
-    height: auto;
-    margin: auto;
-}
-
-.rodape .menu1{
-    font-size: 1.8rem;
-    color: var(--secondary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    justify-content: center;
-    line-height: 40px;
-    margin-left: -275px;
-    margin-top: 130px;
-}
-
-.rodape .menu2{
-    font-size: 1.8rem;
-    color: var(--secondary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    justify-content: center;
-    line-height: 30px;
-    margin-left: -380px;
-    margin-top: 160px;
-}
-
-.rodape a{
-    text-decoration: none;
-    color: var(--secondary);
-}
-*/
-
 
 /* Media Queries para dispositivos móveis */
 @media (max-width: 768px) {
@@ -220,7 +130,7 @@ footer .rodape{
     }
 }
 
-@media (min-width: 769px) and (max-width: 1025) {
+@media (width>768px) and (max-width: 1024) {
     footer .rodape {
         height: auto; 
         padding: 20px; 
@@ -229,7 +139,8 @@ footer .rodape{
     .rodape .conteudo-rodape {
         display: flex;
         align-items: center; 
-        width: 100%
+        width: 100%;
+        margin: 15px 100px ;
     }
     .item {
         justify-content: center;
