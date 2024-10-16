@@ -13,20 +13,71 @@ footer .rodape{
     height: 350px;
 }
 
+.rodape a{
+    display: flex;
+    text-decoration: none;
+    color: var(--secondary);
+}
+
 .rodape .conteudo-rodape{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 15px 160px ;
+}
+
+.rodape .logo{
+    margin: -15px;
 }
 
 .rodape .logo img{
     width: 32rem;
     height: auto;
     margin: auto;
-    padding-top: 15px;
-    margin-left: 140px;
-    margin-top: 50px;
 }
 
+.rodape .loc, .tel, .redes{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.rodape .textloc, .texttel{
+    font-size: 1.5rem;
+    color: var(--secondary);
+    z-index: 10;
+    position: relative; 
+    text-align: justify;
+    max-width: 110ch;
+    margin-left: 3px;
+}
+
+.rodape .loc img{
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+}
+
+.rodape .tel img{
+    width: 3rem;
+    height: auto;
+    margin: auto;
+}
+
+.rodape .redes img{
+    width: 3rem;
+    height: auto;
+    margin: auto;
+}
+
+.rodape .menu1, .menu2{
+    margin-top: 35px;
+}
+
+.rodape .menu1 a, .menu2 a{
+    color: var(--secondary);
+    padding: 5px;
+}
+
+/*
 .rodape .loc{
     display: inline-flex;
     margin-top: 5px;
@@ -114,6 +165,7 @@ footer .rodape{
     text-decoration: none;
     color: var(--secondary);
 }
+*/
 
 
 /* Media Queries para dispositivos móveis */
@@ -165,5 +217,26 @@ footer .rodape{
 
     .rodape .item {
         justify-content: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1025) {
+    footer .rodape {
+        height: auto; 
+        padding: 20px; 
+        margin-top: 0px;
+    }
+    .rodape .conteudo-rodape {
+        display: flex;
+        align-items: center; 
+        width: 100%
+    }
+    .item {
+        justify-content: center;
+        
+    }
+
+    .rodape img{
+        margin: 0px;
     }
 }
