@@ -176,9 +176,10 @@ section.project-details {
     .grid-item img {
         object-fit: cover;
     }
+    
     .logo img {
         max-width: 80%;
-        width: auto; 
+        align-self: auto; 
     }
 }
 
