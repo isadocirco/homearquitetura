@@ -60,3 +60,16 @@ body{
         margin-top: 30px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .title{
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .borda{
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}

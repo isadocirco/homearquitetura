@@ -2,19 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3.2rem;
 }
 
-.projetos .imagens {
-    margin-top: 1rem;
-    
-}
+
 .projetos .imagens :hover {
     margin-top: 3.2rem;
     
 }
 
 .projetos img {
-    padding: 1.3rem;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -29,8 +26,8 @@
     display: grid;
     grid-template-columns: repeat(3, 389px);
     grid-template-rows: 512px 512px 512px;
-    gap: 10px;
-    margin-top: 3.2rem;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 /* Media query para telas menores */
@@ -41,7 +38,7 @@
 
     }
     .projetos .grid {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 2fr; 
         grid-template-rows: auto;
         justify-items: center; 
         width: 100%; 
@@ -49,4 +46,14 @@
 
     }
 
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projetos .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 32rem);
+        grid-template-rows: auto;
+    }
+    .projetos img {
+        max-width: 32rem;
+    }
 }
