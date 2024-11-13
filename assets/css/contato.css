@@ -5,49 +5,41 @@ dados{
 }
 
 .dados .conteudo-dados{
+    margin: 6rem 2rem 0 2rem;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-.dados .item{
-    margin-left: 300px;
+.conteudo-dados form{
+    width: 100%;
 }
 
-.dados .loc{
+.conteudo-dados .item2{
+    width: 20%;
+}
+
+.dados .loc,
+.dados .tel,
+.dados .clock{
     display: inline-flex;
     margin-top: 100px;
 }
 
-.dados .loc img{
+.dados .loc img,
+.dados .tel img,
+.dados .clock img{
     width: 3rem;
     height: auto;
     margin: auto;
     margin-left: auto;
 }
 
-.dados .textloc{
-    font-size: 1.7rem;
-    color: var(--primary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    margin-top: 4px;
-}
-
-.dados .tel{
-    display: inline-flex;
-    margin-top: 10px;
-}
-
-.dados .tel img{
-    width: 3rem;
-    height: auto;
-    margin: auto;
-    margin-left: auto;
-}
-
-.dados .texttel{
+.dados .textloc,
+.dados .texttel,
+.dados .textclock{
     font-size: 1.7rem;
     color: var(--primary);
     z-index: 10;
@@ -69,106 +61,7 @@ dados{
     margin: auto;
 }
 
-.dados .clock{
-    display: inline-flex;
-    margin-top: 10px;
-}
 
-.dados .clock img{
-    width: 3rem;
-    height: auto;
-    margin: auto;
-    margin-left: auto;
-}
-
-.dados .textclock{
-    font-size: 1.7rem;
-    color: var(--primary);
-    z-index: 10;
-    position: relative; 
-    text-align: justify;
-    max-width: 110ch;
-    margin-top: 4px;
-}
-
-.dados .item2{
-    margin-left: 700px;
-    z-index: 10;
-    position: relative; 
-    margin-top: -50rem;
-}
-
-form{
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-left: 300px;
-}
-
-.c1{
-    width: 40%;
-    margin-bottom: 20px;
-    justify-content: center;
-}
-
-.c1 input{
-    width: 100%;
-    border-radius: 30px;
-    height: 30px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-    padding-left: 10px;
-}
-
-.c2{
-    width: 40%;
-    margin-bottom: auto;
-}
-
-.c2 input{
-    width: 100%;
-    border-radius: 30px;
-    height: 300px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.botaoz button{
-    justify-content: center;
-    align-items: center;
-}
-
-.botaoz{
-    display: flex;
-    width: 200px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--foreground);
-    color: var(--background);
-    border-radius: 30px;
-    font-size: 24px;
-    margin-top: 10px;
-}
-
-textarea{
-    resize: none;
-    width: 100%;
-    border-radius: 30px;
-    height: 300px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 30px;
-    display: flex;
-    border-color: var(--secondary);
-}
 
 @media (max-width: 768px) {
     .contatotlt{
