@@ -38,6 +38,7 @@ body{
     font-weight: bold;
     font-size: 36px;
     margin-left: 200px;
+    margin-top: 3.2rem;
 }
 
 .borda{
@@ -48,12 +49,6 @@ body{
 
 
 @media (max-width: 768px) {
-    .title{
-        margin-left: 0px;
-        text-align: center;
-        margin-top: 30px;
-    }
-
     .borda{
         margin-right: 0px;
         margin-left: 0px;

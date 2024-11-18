@@ -5,11 +5,13 @@
     width: 100%;
     margin-top: 6rem;
 }
-form{
+
+.fornecedores form{
     width: 100%;
+    padding: 0 15%;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
+    margin-bottom: 6rem;
 }
 
 .fornecedores .subtitle{
@@ -23,26 +25,10 @@ form{
     justify-content: center;
 }
 
-.c1 input{
-    width: 100%;
-    border-radius: 30px;
-    height: 30px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-}
-
 .f1{
     float: left;
     width: 30%;
     margin-bottom: 20px;
-}
-
-.f1 input{
-    width: 70%;
-    border-radius: 30px;
-    height: 30px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
 }
 
 .f1 .final{
@@ -56,33 +42,8 @@ form{
     margin-bottom: 20px;
 }
 
-.f2 input{
-    width: 80%;
-    float: left;
-    border-radius: 30px;
-    height: 30px;
-    border-color: var(--secondary);
-    background-color: var(--secondary);
-}
-
 .f2 .final{
     padding-right: 30px;
-}
-
-.enviar button{
-    justify-content: center;
-    align-items: center;
-}
-
-.enviar{
-    width: 200px;
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--foreground);
-    color: var(--background);
-    border-radius: 30px;
-    font-size: 24px;
 }
 
 @media (max-width: 768px) {
@@ -101,13 +62,6 @@ form{
         justify-content: center;
         align-items: center;
         margin-left: 0px;
-    }
-
-    .dados .item2{
-        margin-left: 0px;
-        z-index: 10;
-        position: relative; 
-        margin-top: 50px;
     }
 
     .c1 {

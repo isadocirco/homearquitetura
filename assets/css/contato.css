@@ -1,31 +1,33 @@
-dados{
-    justify-content: center;
+.dados{
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .dados .conteudo-dados{
-    margin: 6rem 2rem 0 2rem;
+    margin-top: 6rem;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
+}
 
+.cd-item{
+    width: 400px;
 }
 
 .conteudo-dados form{
     width: 100%;
 }
 
-.conteudo-dados .item2{
-    width: 20%;
+.dados .mapa{
+    margin: 70px 0 0 0;
 }
 
 .dados .loc,
 .dados .tel,
 .dados .clock{
     display: inline-flex;
-    margin-top: 100px;
+    margin: 0 0 30px 0
 }
 
 .dados .loc img,
@@ -51,7 +53,7 @@ dados{
 
 .dados .redes{
     display: inline-flex;
-    margin-top: 5px;
+    margin: 5px 0 30px 0;
     margin-left: auto;
 }
 
@@ -64,50 +66,39 @@ dados{
 
 
 @media (max-width: 768px) {
-    .contatotlt{
-        margin-top: 0;
+    .dados{
+        display: flex;
+        max-width: 768px;
     }
     
-    .dados .item{
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top: -50px;
-        width: 96%;
-
+    .dados .cd-item{
+        padding: 0 5%;
+        width: 50%;
     }
     
+    .dados .enviar{
+        width: 70%;
+        height: 50px;
+        font-size: 16px;
+    }
     .mapa iframe {
         width: 100%;
     }
 
-    form{
-        width: 95%;
+    .conteudo-dados form{
+        width: 100%;
         justify-content: center;
         align-items: center;
-        margin-left: 15px;
     }
 
-    .dados .item2{
-        margin-left: 0px;
-        z-index: 10;
-        position: relative; 
-        margin-top: 50px;
+    .conteudo-dados textarea{
+        width: 100%;
     }
 
-    .c1 {
-        width: 96%;
+    .c1, c2{
+        width: 100%;
     }
 
-    .c2{
-        width: 96%;
- 
-    }
-
-    .botaoz{
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-    }
 }
 
 
