@@ -2,19 +2,6 @@ body {
     background-color: #F1EFE7;
 }
 
-/*  TITULO  */
-
-.Titulo-div {
-    border-bottom: 4px solid black;
-    border-color: black;
-    margin-left: 7%;
-}
-
-.Titulo-div h1 {
-    padding-left: 0px;
-    margin-left: 0px;
-}
-
 /*  SESSÃO PRINCIPAL  */
 
 section.project-details {
@@ -115,7 +102,6 @@ section.project-details {
 .grid-item {
     margin: 0;
     padding: 0;
-    background-color: aqua;
 }
 
 .grid-item img {
