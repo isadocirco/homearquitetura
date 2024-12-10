@@ -26,22 +26,22 @@
 }
 
 .social-icons {
-    gap: 26px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6%;
-    margin-bottom: 6%;
-
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0 0 -6px;
 }
 
-.social-icon {
-    font-size: 24px;
-    color: black;
+.social{
+    margin: 6px;
+}
+
+.social img{
+    height: 40px;
     text-decoration: none;
 }
 
-.social-icon:hover {
-    color: #007bff; 
+.social:hover {
+    cursor: pointer;
 }
 
 /*  GRID LATERAL  */
