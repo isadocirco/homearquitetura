@@ -28,7 +28,7 @@ footer .rodape{
 .rodape .logo img{
     width: 32rem;
     height: auto;
-    margin: auto;
+    margin-left: -30px;
 }
 
 .rodape .loc, .tel, .redes{
